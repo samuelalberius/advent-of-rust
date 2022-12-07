@@ -4,7 +4,7 @@ fn main() {
 }
 
 fn task_a() {
-    let s = include_str!("../input.txt")
+    let s = include_str!("input.txt")
         .lines()
         .map(|l| l.split_once(' ').unwrap())
         .fold(0, |sc, (p1, p2)| {

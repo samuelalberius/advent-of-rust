@@ -29,7 +29,7 @@ pub fn task_b(input: &str) -> i32 {
 }
 
 fn main() {
-    let input = include_str!("../input.txt");
+    let input = include_str!("input.txt");
     println!("Task 1: {}", task_a(input));
     println!("Task 2: {}", task_b(input));
 }
